@@ -1,0 +1,566 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Rumah Lily — Frozen Food, Handcraft & Konsultan Pendidikan</title>
+  <meta name="description" content="Rumah Lily: satu rumah, tiga usaha. Frozen food rumahan, sandal handmade limited edition, dan konsultasi pendidikan untuk anak & orang tua.">
+  <meta property="og:title" content="Rumah Lily — Satu Rumah, Tiga Usaha Penuh Cinta">
+  <meta property="og:description" content="Frozen food rumahan, sandal handmade limited edition, dan konsultasi pendidikan.">
+  <meta property="og:image" content="assets/img/sandal-jendela.jpg">
+  <meta name="theme-color" content="#FF6A1A">
+  <link rel="icon" type="image/png" href="assets/img/logo-rumahlily.png">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@600;700&family=Fredoka:wght@500;600;700&family=Lilita+One&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+<!-- ============ IKON (SVG sprite) ============ -->
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <defs>
+    <symbol id="lily" viewBox="-50 -50 100 100">
+      <g fill="currentColor">
+        <path d="M0 -4 C 10 -16, 10 -34, 0 -46 C -10 -34, -10 -16, 0 -4Z"/>
+        <path d="M0 -4 C 10 -16, 10 -34, 0 -46 C -10 -34, -10 -16, 0 -4Z" transform="rotate(60)"/>
+        <path d="M0 -4 C 10 -16, 10 -34, 0 -46 C -10 -34, -10 -16, 0 -4Z" transform="rotate(120)"/>
+        <path d="M0 -4 C 10 -16, 10 -34, 0 -46 C -10 -34, -10 -16, 0 -4Z" transform="rotate(180)"/>
+        <path d="M0 -4 C 10 -16, 10 -34, 0 -46 C -10 -34, -10 -16, 0 -4Z" transform="rotate(240)"/>
+        <path d="M0 -4 C 10 -16, 10 -34, 0 -46 C -10 -34, -10 -16, 0 -4Z" transform="rotate(300)"/>
+      </g>
+      <circle r="9" fill="#FFC531"/>
+      <circle r="4" fill="#FF6A1A"/>
+    </symbol>
+    <symbol id="i-arrow" viewBox="0 0 24 24"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></symbol>
+    <symbol id="i-check" viewBox="0 0 24 24"><path d="M20 6 9 17l-5-5"/></symbol>
+    <symbol id="i-star" viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></symbol>
+    <symbol id="i-snow" viewBox="0 0 24 24"><path d="M2 12h20"/><path d="M12 2v20"/><path d="m20 16-4-4 4-4"/><path d="m4 8 4 4-4 4"/><path d="m16 4-4 4-4-4"/><path d="m8 20 4-4 4 4"/></symbol>
+    <symbol id="i-cap" viewBox="0 0 24 24"><path d="M22 10v6"/><path d="M2 10l10-5 10 5-10 5z"/><path d="M6 12v5c3 3 9 3 12 0v-5"/></symbol>
+    <symbol id="i-scissors" viewBox="0 0 24 24"><circle cx="6" cy="6" r="3"/><path d="M8.12 8.12 12 12"/><path d="M20 4 8.12 15.88"/><circle cx="6" cy="18" r="3"/><path d="M14.8 14.8 20 20"/></symbol>
+    <symbol id="i-heart" viewBox="0 0 24 24"><path d="M19 14c1.49-1.46 3-3.21 3-5.5A5.5 5.5 0 0 0 16.5 3c-1.76 0-3 .5-4.5 2-1.5-1.5-2.74-2-4.5-2A5.5 5.5 0 0 0 2 8.5c0 2.3 1.5 4.05 3 5.5l7 7Z"/></symbol>
+    <symbol id="i-bag" viewBox="0 0 24 24"><path d="M6 2 3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4Z"/><path d="M3 6h18"/><path d="M16 10a4 4 0 0 1-8 0"/></symbol>
+    <symbol id="i-chat" viewBox="0 0 24 24"><path d="M7.9 20A9 9 0 1 0 4 16.1L2 22Z"/><path d="M8.5 9.5c0 3 3 6 6 6l1.2-1.4-1.9-1.1-.9.8c-1-.4-2.2-1.6-2.6-2.6l.8-.9-1.1-1.9z"/></symbol>
+    <symbol id="i-book" viewBox="0 0 24 24"><path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"/><path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"/></symbol>
+    <symbol id="i-compass" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><polygon points="16.24 7.76 14.12 14.12 7.76 16.24 9.88 9.88 16.24 7.76"/></symbol>
+    <symbol id="i-target" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><circle cx="12" cy="12" r="6"/><circle cx="12" cy="12" r="2"/></symbol>
+    <symbol id="i-users" viewBox="0 0 24 24"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M22 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></symbol>
+    <symbol id="i-flame" viewBox="0 0 24 24"><path d="M8.5 14.5A2.5 2.5 0 0 0 11 12c0-1.38-.5-2-1-3-1.07-2.14-.22-4.05 2-6 .5 2.5 2 4.9 4 6.5 2 1.6 3 3.5 3 5.5a7 7 0 1 1-14 0c0-1.15.43-2.29 1-3a2.5 2.5 0 0 0 2.5 2.5z"/></symbol>
+    <symbol id="i-box" viewBox="0 0 24 24"><path d="m7.5 4.27 9 5.15"/><path d="M21 8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16Z"/><path d="m3.3 7 8.7 5 8.7-5"/><path d="M12 22V12"/></symbol>
+    <symbol id="i-truck" viewBox="0 0 24 24"><path d="M14 18V6a2 2 0 0 0-2-2H4a2 2 0 0 0-2 2v11a1 1 0 0 0 1 1h2"/><path d="M15 18H9"/><path d="M19 18h2a1 1 0 0 0 1-1v-3.65a1 1 0 0 0-.22-.62l-3.48-4.35A1 1 0 0 0 17.52 8H14"/><circle cx="17" cy="18" r="2"/><circle cx="7" cy="18" r="2"/></symbol>
+    <symbol id="i-tag" viewBox="0 0 24 24"><path d="M12.59 2.59A2 2 0 0 0 11.17 2H4a2 2 0 0 0-2 2v7.17a2 2 0 0 0 .59 1.42l8.7 8.7a2.43 2.43 0 0 0 3.42 0l6.58-6.58a2.43 2.43 0 0 0 0-3.42z"/><circle cx="7.5" cy="7.5" r="1.5"/></symbol>
+    <symbol id="i-home" viewBox="0 0 24 24"><path d="m3 9 9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><path d="M9 22V12h6v10"/></symbol>
+    <symbol id="i-sparkle" viewBox="0 0 24 24"><path d="M12 3l1.9 5.1L19 10l-5.1 1.9L12 17l-1.9-5.1L5 10l5.1-1.9z"/><path d="M19 15l.8 2.2L22 18l-2.2.8L19 21l-.8-2.2L16 18l2.2-.8z"/></symbol>
+    <symbol id="i-menu" viewBox="0 0 24 24"><path d="M4 7h16"/><path d="M4 12h16"/><path d="M4 17h16"/></symbol>
+    <symbol id="i-x" viewBox="0 0 24 24"><path d="M18 6 6 18"/><path d="m6 6 12 12"/></symbol>
+    <symbol id="i-send" viewBox="0 0 24 24"><path d="m22 2-7 20-4-9-9-4Z"/><path d="M22 2 11 13"/></symbol>
+  </defs>
+</svg>
+
+<!-- ============ NAVBAR ============ -->
+<header class="nav" id="nav">
+  <div class="container nav-inner">
+    <a href="#beranda" class="brand" aria-label="Rumah Lily, ke beranda">
+      <img src="assets/img/logo-rumahlily.png" alt="" width="44" height="44">
+      <span class="brand-text"><b>Rumah</b> <i>Lily</i></span>
+    </a>
+    <nav class="nav-links" id="navLinks" aria-label="Menu utama">
+      <a href="#usaha">Usaha Kami</a>
+      <a href="#frozen">Frozen Food</a>
+      <a href="#handcraft">Handcraft</a>
+      <a href="#edukasi">Konsultan Edukasi</a>
+      <a href="#kontak">Kontak</a>
+      <a href="#kontak" class="btn btn-sm btn-wa nav-cta"><svg class="ic"><use href="#i-chat"/></svg>Pesan Sekarang</a>
+    </nav>
+    <button class="nav-toggle" id="navToggle" aria-label="Buka menu" aria-expanded="false" aria-controls="navLinks">
+      <svg class="ic ic-open"><use href="#i-menu"/></svg>
+      <svg class="ic ic-close"><use href="#i-x"/></svg>
+    </button>
+  </div>
+</header>
+
+<main>
+
+<!-- ============ HERO ============ -->
+<section class="hero" id="beranda">
+  <svg class="deco-lily dl-1"><use href="#lily"/></svg>
+  <svg class="deco-lily dl-2"><use href="#lily"/></svg>
+  <svg class="deco-lily dl-3"><use href="#lily"/></svg>
+  <div class="container hero-grid">
+    <div class="hero-copy">
+      <span class="eyebrow-chip"><svg class="ic"><use href="#i-home"/></svg>Usaha keluarga · berjualan online sejak 2018</span>
+      <h1 class="hero-title">
+        <span class="wm wm-rumah">Rumah</span>
+        <span class="wm wm-lily">Lily</span>
+      </h1>
+      <p class="hero-tagline">Satu rumah, <span class="scribble">tiga usaha</span> penuh cinta.</p>
+      <p class="hero-lead">Dari dapur, meja kerja, dan ruang belajar kami lahir <b>frozen food rumahan</b> yang praktis, <b>kerajinan tangan</b> yang unik, dan <b>pendampingan pendidikan</b> untuk masa depan anak.</p>
+
+      <div class="hero-pills">
+        <a href="#frozen" class="pill pill-frost"><svg class="ic"><use href="#i-snow"/></svg>Makanan Frozen</a>
+        <a href="#handcraft" class="pill pill-pink"><svg class="ic"><use href="#i-scissors"/></svg>Handcraft</a>
+        <a href="#edukasi" class="pill pill-leaf"><svg class="ic"><use href="#i-cap"/></svg>Educational Consultant</a>
+      </div>
+
+      <div class="hero-actions">
+        <a href="#usaha" class="btn btn-primary">Jelajahi Usaha Kami<svg class="ic"><use href="#i-arrow"/></svg></a>
+        <a href="#" class="btn btn-ghost" data-wa="Halo Rumah Lily, saya ingin bertanya.">
+          <svg class="ic"><use href="#i-chat"/></svg>Chat WhatsApp</a>
+      </div>
+    </div>
+
+    <div class="hero-art" aria-hidden="true">
+      <div class="blob"></div>
+      <figure class="polaroid p1"><img src="assets/img/sandal-jendela.jpg" alt=""><figcaption>pink pelangi</figcaption></figure>
+      <figure class="polaroid p2"><img src="assets/img/sandal-kota.jpg" alt=""><figcaption>bunga warna-warni ✿</figcaption></figure>
+      <figure class="polaroid p3"><img src="assets/img/sandal-model.jpg" alt=""><figcaption>handmade!</figcaption></figure>
+      <figure class="polaroid p4"><img src="assets/img/sandal-pantai.jpg" alt=""><figcaption>siap ke pantai</figcaption></figure>
+
+      <div class="sticker st-frost"><svg class="ic"><use href="#i-snow"/></svg><span>Frozen<br>Food</span></div>
+      <div class="sticker st-leaf"><svg class="ic"><use href="#i-cap"/></svg><span>Konsul<br>Edukasi</span></div>
+      <div class="sticker st-sun"><b>4.9</b><span>★★★★★</span></div>
+    </div>
+  </div>
+
+  <div class="container">
+    <ul class="stats">
+      <li><b data-count="8">8</b><span class="plus">+</span><small>tahun berjualan online</small></li>
+      <li><b data-count="26">26</b><small>produk di toko Shopee</small></li>
+      <li><b>4.9</b><span class="plus">★</span><small>rating dari 18 penilaian</small></li>
+      <li><b data-count="133">133</b><small>pengikut setia</small></li>
+    </ul>
+  </div>
+</section>
+
+<!-- ============ MARQUEE ============ -->
+<div class="marquee" aria-hidden="true">
+  <div class="marquee-track">
+    <span>Frozen Food Rumahan</span><svg><use href="#lily"/></svg>
+    <span>Sandal Handmade</span><svg><use href="#lily"/></svg>
+    <span>Limited Edition</span><svg><use href="#lily"/></svg>
+    <span>Konsultan Pendidikan</span><svg><use href="#lily"/></svg>
+    <span>Dibuat dengan Hati</span><svg><use href="#lily"/></svg>
+  </div>
+</div>
+
+<!-- ============ TIGA USAHA ============ -->
+<section class="section" id="usaha">
+  <div class="container">
+    <div class="section-head center reveal">
+      <span class="eyebrow">Usaha Kami</span>
+      <h2>Tiga usaha, <span class="hl">satu rumah</span></h2>
+      <p>Setiap usaha di Rumah Lily dikerjakan sendiri, dengan perhatian yang sama seperti untuk keluarga.</p>
+    </div>
+
+    <div class="biz-grid">
+      <article class="biz-card biz-frost reveal">
+        <div class="biz-top">
+          <span class="biz-num">01</span>
+          <div class="biz-icon"><svg class="ic"><use href="#i-snow"/></svg></div>
+          <svg class="biz-flake f1"><use href="#i-snow"/></svg>
+          <svg class="biz-flake f2"><use href="#i-snow"/></svg>
+        </div>
+        <div class="biz-body">
+          <h3>Makanan Frozen</h3>
+          <p>Lauk dan camilan beku buatan dapur sendiri. Simpan di freezer, masak kapan saja, tetap terasa rumahan.</p>
+          <ul class="ticks">
+            <li><svg class="ic"><use href="#i-check"/></svg>Resep rumahan</li>
+            <li><svg class="ic"><use href="#i-check"/></svg>Praktis tinggal masak</li>
+          </ul>
+          <a href="#frozen" class="link-arrow">Lihat menu<svg class="ic"><use href="#i-arrow"/></svg></a>
+        </div>
+      </article>
+
+      <article class="biz-card biz-pink reveal">
+        <div class="biz-top biz-top-photo">
+          <span class="biz-num">02</span>
+          <img src="assets/img/sandal-kolam.jpg" alt="Sandal handmade pink Rumah Lily di tepi kolam">
+        </div>
+        <div class="biz-body">
+          <h3>Handcraft</h3>
+          <p>Sandal wanita handmade dengan tali rajut, anyaman, dan hiasan bunga. Limited edition, harga bersahabat.</p>
+          <ul class="ticks">
+            <li><svg class="ic"><use href="#i-check"/></svg>Dihias dengan tangan</li>
+            <li><svg class="ic"><use href="#i-check"/></svg>Mulai Rp35.000</li>
+          </ul>
+          <a href="#handcraft" class="link-arrow">Lihat koleksi<svg class="ic"><use href="#i-arrow"/></svg></a>
+        </div>
+      </article>
+
+      <article class="biz-card biz-leaf reveal">
+        <div class="biz-top">
+          <span class="biz-num">03</span>
+          <div class="biz-icon"><svg class="ic"><use href="#i-cap"/></svg></div>
+          <svg class="biz-flake f1"><use href="#i-book"/></svg>
+          <svg class="biz-flake f2"><use href="#i-sparkle"/></svg>
+        </div>
+        <div class="biz-body">
+          <h3>Educational Consultant</h3>
+          <p>Teman diskusi orang tua dan siswa: memilih sekolah, memetakan minat, hingga menyiapkan studi lanjut.</p>
+          <ul class="ticks">
+            <li><svg class="ic"><use href="#i-check"/></svg>Pendampingan personal</li>
+            <li><svg class="ic"><use href="#i-check"/></svg>SD hingga kuliah</li>
+          </ul>
+          <a href="#edukasi" class="link-arrow">Lihat layanan<svg class="ic"><use href="#i-arrow"/></svg></a>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ============ 01 FROZEN FOOD ============ -->
+<!-- Catatan: daftar menu di bawah adalah contoh, silakan sesuaikan dengan produk asli -->
+<section class="section section-frost" id="frozen">
+  <div class="wave wave-top" aria-hidden="true"></div>
+  <svg class="snow s1" aria-hidden="true"><use href="#i-snow"/></svg>
+  <svg class="snow s2" aria-hidden="true"><use href="#i-snow"/></svg>
+  <svg class="snow s3" aria-hidden="true"><use href="#i-snow"/></svg>
+
+  <div class="container">
+    <div class="split">
+      <div class="section-head reveal">
+        <span class="eyebrow eyebrow-frost">01 · Makanan Frozen</span>
+        <h2>Stok lauk enak,<br><span class="hl hl-frost">dari freezer ke meja</span></h2>
+        <p>Untuk keluarga yang sibuk tapi tetap ingin makan masakan rumah. Kami membuat dalam jumlah kecil, langsung dibekukan, lalu dikemas rapi. Anda tinggal goreng, kukus, atau rebus.</p>
+        <ul class="feature-row">
+          <li><svg class="ic"><use href="#i-heart"/></svg>Resep rumahan</li>
+          <li><svg class="ic"><use href="#i-flame"/></svg>Siap masak 10–15 menit</li>
+          <li><svg class="ic"><use href="#i-box"/></svg>Kemasan rapat</li>
+          <li><svg class="ic"><use href="#i-users"/></svg>Bisa untuk acara</li>
+        </ul>
+      </div>
+
+      <div class="steps-card reveal">
+        <h3>Cara pesan</h3>
+        <ol class="steps">
+          <li><span>1</span><div><b>Pilih menu</b><small>Lihat daftar menu di bawah.</small></div></li>
+          <li><span>2</span><div><b>Chat WhatsApp</b><small>Sebutkan menu dan jumlahnya.</small></div></li>
+          <li><span>3</span><div><b>Ambil atau diantar</b><small>Kami atur waktunya bersama Anda.</small></div></li>
+        </ol>
+        <a href="#" class="btn btn-frost btn-block" data-wa="Halo Rumah Lily, saya ingin pesan frozen food. Boleh minta daftar menu & harganya?">
+          <svg class="ic"><use href="#i-chat"/></svg>Pesan Frozen Food</a>
+      </div>
+    </div>
+
+    <div class="menu-grid">
+      <article class="menu-card reveal">
+        <div class="menu-art">
+          <svg viewBox="0 0 80 80"><rect x="8" y="56" width="64" height="14" rx="4" fill="#D9A066"/><path d="M14 60v6M24 60v6M34 60v6M44 60v6M54 60v6M64 60v6" stroke="#B9814A" stroke-width="2"/><rect x="18" y="32" width="44" height="26" rx="8" fill="#F6D9A8"/><path d="M26 36v18M34 35v20M42 35v20M50 35v20M56 36v18" stroke="#E9C48A" stroke-width="2"/><ellipse cx="40" cy="33" rx="22" ry="7" fill="#FBE6C2"/><ellipse cx="40" cy="32" rx="12" ry="4.5" fill="#F28C4B"/><circle cx="40" cy="30" r="3" fill="#E5482C"/></svg>
+        </div>
+        <h3>Dimsum Ayam</h3>
+        <p>Lembut, gurih, isi ayam padat.</p>
+        <span class="menu-tag"><svg class="ic"><use href="#i-flame"/></svg>Kukus 15 menit</span>
+      </article>
+
+      <article class="menu-card reveal">
+        <div class="menu-art">
+          <svg viewBox="0 0 80 80"><path d="M14 44c-2-10 6-18 16-17 8 1 14 0 18 6 4 7-1 16-10 17-9 2-22 3-24-6Z" fill="#F2B544"/><path d="M38 56c-1-9 7-14 15-13 9 1 15 4 14 12-1 7-9 9-16 9s-12-1-13-8Z" fill="#E9A23B"/><g fill="#C9802A"><circle cx="22" cy="36" r="1.6"/><circle cx="30" cy="41" r="1.4"/><circle cx="40" cy="36" r="1.6"/><circle cx="25" cy="46" r="1.3"/><circle cx="48" cy="53" r="1.5"/><circle cx="57" cy="50" r="1.3"/><circle cx="54" cy="58" r="1.6"/><circle cx="45" cy="60" r="1.2"/></g></svg>
+        </div>
+        <h3>Nugget Ayam</h3>
+        <p>Renyah di luar, juicy di dalam.</p>
+        <span class="menu-tag"><svg class="ic"><use href="#i-flame"/></svg>Goreng 5 menit</span>
+      </article>
+
+      <article class="menu-card reveal">
+        <div class="menu-art">
+          <svg viewBox="0 0 80 80"><g transform="rotate(-18 40 40)"><rect x="12" y="30" width="56" height="22" rx="11" fill="#E39A35"/><ellipse cx="64" cy="41" rx="6" ry="10" fill="#FFF3D6"/><ellipse cx="64" cy="41" rx="3.5" ry="6.5" fill="#F4C76A"/><g fill="#B8741F"><circle cx="20" cy="36" r="1.5"/><circle cx="28" cy="44" r="1.5"/><circle cx="36" cy="35" r="1.3"/><circle cx="44" cy="45" r="1.6"/><circle cx="52" cy="36" r="1.3"/></g></g></svg>
+        </div>
+        <h3>Risoles Ragout</h3>
+        <p>Isi ragout ayam sayur yang creamy.</p>
+        <span class="menu-tag"><svg class="ic"><use href="#i-flame"/></svg>Goreng 6 menit</span>
+      </article>
+
+      <article class="menu-card reveal">
+        <div class="menu-art">
+          <svg viewBox="0 0 80 80"><path d="M10 68 70 12" stroke="#B07B4F" stroke-width="3" stroke-linecap="round"/><circle cx="26" cy="53" r="11" fill="#9C6A45"/><circle cx="40" cy="40" r="11" fill="#A97650"/><circle cx="54" cy="27" r="11" fill="#9C6A45"/><circle cx="22" cy="49" r="3" fill="#C99B76"/><circle cx="36" cy="36" r="3" fill="#D3A984"/><circle cx="50" cy="23" r="3" fill="#C99B76"/></svg>
+        </div>
+        <h3>Bakso Sapi</h3>
+        <p>Kenyal, cocok untuk kuah atau bakar.</p>
+        <span class="menu-tag"><svg class="ic"><use href="#i-flame"/></svg>Rebus 8 menit</span>
+      </article>
+
+      <article class="menu-card reveal">
+        <div class="menu-art">
+          <svg viewBox="0 0 80 80"><rect x="10" y="26" width="58" height="16" rx="8" fill="#F0B95A" transform="rotate(-8 40 34)"/><rect x="14" y="44" width="58" height="16" rx="8" fill="#E8A846" transform="rotate(-8 40 52)"/><g stroke="#C98A2E" stroke-width="2" stroke-linecap="round"><path d="M26 25l-3 15M38 24l-3 15M50 22l-3 15"/><path d="M30 43l-3 15M42 41l-3 15M54 40l-3 15"/></g></svg>
+        </div>
+        <h3>Lumpia Sayur</h3>
+        <p>Kulit tipis, isi sayur & bihun.</p>
+        <span class="menu-tag"><svg class="ic"><use href="#i-flame"/></svg>Goreng 6 menit</span>
+      </article>
+
+      <article class="menu-card reveal">
+        <div class="menu-art">
+          <svg viewBox="0 0 80 80"><rect x="10" y="22" width="60" height="16" rx="8" fill="#D9534F"/><rect x="10" y="44" width="60" height="16" rx="8" fill="#C9443F"/><g stroke="#8E2A27" stroke-width="2.5" stroke-linecap="round"><path d="M24 26l6 8M36 26l6 8M48 26l6 8"/><path d="M24 48l6 8M36 48l6 8M48 48l6 8"/></g><circle cx="16" cy="27" r="2" fill="#EF8A86"/><circle cx="16" cy="49" r="2" fill="#E07571"/></svg>
+        </div>
+        <h3>Sosis Ayam</h3>
+        <p>Favorit bekal anak, tanpa ribet.</p>
+        <span class="menu-tag"><svg class="ic"><use href="#i-flame"/></svg>Goreng 4 menit</span>
+      </article>
+    </div>
+  </div>
+  <div class="wave wave-bottom" aria-hidden="true"></div>
+</section>
+
+<!-- ============ 02 HANDCRAFT ============ -->
+<section class="section section-pink" id="handcraft">
+  <div class="container">
+    <div class="craft-head">
+      <div class="section-head reveal">
+        <span class="eyebrow eyebrow-pink">02 · Handcraft</span>
+        <h2>Sandal handmade,<br><span class="hl hl-pink">cantik &amp; penuh warna</span></h2>
+        <p>Setiap pasang dihias dengan tangan: tali rajut warna-warni, anyaman, bunga pom-pom, hingga manik-manik. Produksinya terbatas, jadi tiap model terasa istimewa.</p>
+        <div class="badges">
+          <span class="badge"><svg class="ic"><use href="#i-heart"/></svg>Handmade</span>
+          <span class="badge"><svg class="ic"><use href="#i-sparkle"/></svg>Limited Edition</span>
+          <span class="badge"><svg class="ic"><use href="#i-tag"/></svg>Harga terjangkau</span>
+        </div>
+      </div>
+
+      <aside class="shop-card reveal">
+        <img src="assets/img/logo-rumahlily.png" alt="Logo Rumah Lily" width="64" height="64">
+        <div>
+          <span class="shop-label">Toko kami di Shopee</span>
+          <b class="shop-name" data-shopee-name>Rumah Lily 2025</b>
+          <div class="shop-meta">
+            <span><svg class="ic star"><use href="#i-star"/></svg>4.9 (18)</span>
+            <span>26 produk</span>
+            <span>133 pengikut</span>
+          </div>
+        </div>
+        <a href="#" class="btn btn-shopee btn-block" data-shopee><svg class="ic"><use href="#i-bag"/></svg>Kunjungi Toko</a>
+      </aside>
+    </div>
+
+    <div class="filters reveal" role="tablist" aria-label="Filter koleksi">
+      <button class="filter active" data-filter="all" role="tab" aria-selected="true">Semua <small>8</small></button>
+      <button class="filter" data-filter="limited" role="tab" aria-selected="false">Limited Edition <small>6</small></button>
+      <button class="filter" data-filter="rumah" role="tab" aria-selected="false">Sandal Rumah <small>2</small></button>
+    </div>
+
+    <div class="product-grid" id="productGrid">
+      <button class="product reveal" data-cat="limited" data-name="Sandal Pink Pita Merah" data-price="Rp35.000" data-desc="Sandal jepit pink dengan tali anyam merah-putih. Manis untuk santai di rumah atau liburan." data-img="assets/img/sandal-kolam.jpg" style="--pos:72% 50%; --tilt:-1.5deg">
+        <span class="product-img"><img src="assets/img/sandal-kolam.jpg" alt="Sandal Pink Pita Merah" loading="lazy"><em class="ribbon">Terlaris</em></span>
+        <span class="product-info"><b>Sandal Pink Pita Merah</b><span class="price">Rp35.000</span><span class="rating"><svg class="ic star"><use href="#i-star"/></svg>5.0 · 4 terjual</span></span>
+      </button>
+      <button class="product reveal" data-cat="limited" data-name="Sandal Ungu Tali Anyam" data-price="Rp35.000" data-desc="Sandal ungu dengan tali anyaman cokelat-oranye yang hangat. Cocok untuk ke pantai." data-img="assets/img/sandal-pantai.jpg" style="--pos:50% 55%; --tilt:1.2deg">
+        <span class="product-img"><img src="assets/img/sandal-pantai.jpg" alt="Sandal Ungu Tali Anyam" loading="lazy"></span>
+        <span class="product-info"><b>Sandal Ungu Tali Anyam</b><span class="price">Rp35.000</span><span class="rating muted">Limited edition</span></span>
+      </button>
+      <button class="product reveal" data-cat="limited" data-name="Sandal Ungu Bunga Pelangi" data-price="Rp35.000" data-desc="Sandal ungu bertabur bunga pom-pom warna-warni. Ceria dan pasti jadi perhatian." data-img="assets/img/sandal-kota.jpg" style="--pos:50% 75%; --tilt:-1deg">
+        <span class="product-img"><img src="assets/img/sandal-kota.jpg" alt="Sandal Ungu Bunga Pelangi" loading="lazy"></span>
+        <span class="product-info"><b>Sandal Ungu Bunga Pelangi</b><span class="price">Rp35.000</span><span class="rating muted">Limited edition</span></span>
+      </button>
+      <button class="product reveal" data-cat="limited" data-name="Sandal Hitam Rajut Warna-warni" data-price="Rp35.000" data-desc="Sandal hitam dengan tali rajut merah, kuning, dan biru. Kalem tapi tetap stand out." data-img="assets/img/sandal-model.jpg" style="--pos:50% 45%; --tilt:1.6deg">
+        <span class="product-img"><img src="assets/img/sandal-model.jpg" alt="Sandal Hitam Rajut Warna-warni" loading="lazy"></span>
+        <span class="product-info"><b>Sandal Hitam Rajut Warna-warni</b><span class="price">Rp35.000</span><span class="rating muted">Limited edition</span></span>
+      </button>
+      <button class="product reveal" data-cat="limited" data-name="Sandal Hitam Elegant" data-price="Rp35.000" data-desc="Seri Elegant: sandal hitam berhias tali rajut lembut. Pas dipadukan dengan busana muslimah." data-img="assets/img/sandal-elegant.jpg" style="--pos:50% 40%; --tilt:-1.2deg">
+        <span class="product-img"><img src="assets/img/sandal-elegant.jpg" alt="Sandal Hitam Elegant" loading="lazy"></span>
+        <span class="product-info"><b>Sandal Hitam Elegant</b><span class="price">Rp35.000</span><span class="rating muted">Limited edition</span></span>
+      </button>
+      <button class="product reveal" data-cat="limited" data-name="Sandal Pink Rajut Pelangi" data-price="Rp35.000" data-desc="Sandal pink dengan tali rajut pelangi yang cerah. Hadiah manis untuk orang tersayang." data-img="assets/img/sandal-jendela.jpg" style="--pos:50% 60%; --tilt:1deg">
+        <span class="product-img"><img src="assets/img/sandal-jendela.jpg" alt="Sandal Pink Rajut Pelangi" loading="lazy"></span>
+        <span class="product-info"><b>Sandal Pink Rajut Pelangi</b><span class="price">Rp35.000</span><span class="rating muted">Limited edition</span></span>
+      </button>
+      <button class="product reveal" data-cat="rumah" data-name="Sandal Rumah Hitam Simpel" data-price="Rp45.000" data-desc="Sandal rumah hitam yang simpel dan nyaman dipakai seharian." data-img="assets/img/sandal-rumah-1.jpg" style="--pos:50% 50%; --tilt:-1.4deg">
+        <span class="product-img"><img src="assets/img/sandal-rumah-1.jpg" alt="Sandal Rumah Hitam Simpel" loading="lazy"></span>
+        <span class="product-info"><b>Sandal Rumah Hitam Simpel</b><span class="price">Rp45.000</span><span class="rating"><svg class="ic star"><use href="#i-star"/></svg>5.0 · 1 terjual</span></span>
+      </button>
+      <button class="product reveal" data-cat="rumah" data-name="Sandal Rumah Hitam Manik" data-price="Rp45.000" data-desc="Sandal rumah hitam dengan tali berhias manik berkilau. Nyaman sekaligus mewah." data-img="assets/img/sandal-rumah-2.jpg" style="--pos:50% 50%; --tilt:1.3deg">
+        <span class="product-img"><img src="assets/img/sandal-rumah-2.jpg" alt="Sandal Rumah Hitam Manik" loading="lazy"></span>
+        <span class="product-info"><b>Sandal Rumah Hitam Manik</b><span class="price">Rp45.000</span><span class="rating muted">Sandal rumah</span></span>
+      </button>
+    </div>
+
+    <div class="custom-banner reveal">
+      <svg class="cb-lily" aria-hidden="true"><use href="#lily"/></svg>
+      <div>
+        <h3>Mau warna atau model sendiri?</h3>
+        <p>Kami menerima pesanan custom untuk kado, seragam acara, atau souvenir.</p>
+      </div>
+      <a href="#" class="btn btn-light" data-wa="Halo Rumah Lily, saya ingin pesan sandal handmade custom.">
+        <svg class="ic"><use href="#i-chat"/></svg>Diskusi Custom</a>
+    </div>
+  </div>
+</section>
+
+<!-- ============ 03 EDUCATIONAL CONSULTANT ============ -->
+<!-- Catatan: layanan di bawah adalah draf, silakan sesuaikan -->
+<section class="section section-leaf" id="edukasi">
+  <div class="container">
+    <div class="edu-grid">
+      <div class="edu-visual reveal">
+        <div class="edu-board">
+          <svg class="edu-cap"><use href="#i-cap"/></svg>
+          <p class="edu-quote">“Kami tidak mencari sekolah yang <em>paling hebat</em>. Kami mencari yang <em>paling cocok</em> untuk anak Anda.”</p>
+          <div class="edu-levels">
+            <span>SD</span><span>SMP</span><span>SMA/SMK</span><span>Kuliah</span>
+          </div>
+        </div>
+        <div class="edu-note">
+          <svg class="ic"><use href="#i-heart"/></svg>
+          <span>Untuk orang tua &amp; siswa</span>
+        </div>
+      </div>
+
+      <div>
+        <div class="section-head reveal">
+          <span class="eyebrow eyebrow-leaf">03 · Educational Consultant</span>
+          <h2>Konsultan pendidikan<br><span class="hl hl-leaf">yang mau mendengarkan</span></h2>
+          <p>Setiap anak punya jalannya sendiri. Kami membantu memetakan minat, memilih sekolah atau jurusan, dan menyusun rencana belajar yang realistis bersama keluarga.</p>
+        </div>
+
+        <div class="service-grid">
+          <div class="service reveal">
+            <span class="service-ic"><svg class="ic"><use href="#i-compass"/></svg></span>
+            <h3>Pemilihan sekolah &amp; jurusan</h3>
+            <p>Membandingkan pilihan sesuai minat, kemampuan, dan kondisi keluarga.</p>
+          </div>
+          <div class="service reveal">
+            <span class="service-ic"><svg class="ic"><use href="#i-target"/></svg></span>
+            <h3>Pemetaan minat &amp; bakat</h3>
+            <p>Mengenali kekuatan anak sebagai dasar memilih arah.</p>
+          </div>
+          <div class="service reveal">
+            <span class="service-ic"><svg class="ic"><use href="#i-book"/></svg></span>
+            <h3>Pendampingan belajar</h3>
+            <p>Rencana belajar, kebiasaan, dan evaluasi berkala.</p>
+          </div>
+          <div class="service reveal">
+            <span class="service-ic"><svg class="ic"><use href="#i-cap"/></svg></span>
+            <h3>Persiapan kuliah &amp; beasiswa</h3>
+            <p>Strategi seleksi masuk, berkas, dan persiapan wawancara.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="process reveal">
+      <h3>Alur konsultasi</h3>
+      <ol>
+        <li><span class="pnum">1</span><b>Kenalan</b><small>Ngobrol santai tentang kebutuhan anak.</small></li>
+        <li><span class="pnum">2</span><b>Pemetaan</b><small>Menggali minat, nilai, dan tujuan.</small></li>
+        <li><span class="pnum">3</span><b>Rencana aksi</b><small>Pilihan dan langkah yang jelas.</small></li>
+        <li><span class="pnum">4</span><b>Pendampingan</b><small>Kami temani sampai tujuan tercapai.</small></li>
+      </ol>
+      <a href="#" class="btn btn-leaf" data-wa="Halo Rumah Lily, saya ingin menjadwalkan konsultasi pendidikan.">
+        <svg class="ic"><use href="#i-chat"/></svg>Jadwalkan Konsultasi</a>
+    </div>
+  </div>
+</section>
+
+<!-- ============ KENAPA RUMAH LILY ============ -->
+<section class="section" id="kenapa">
+  <div class="container">
+    <div class="section-head center reveal">
+      <span class="eyebrow">Kenapa Rumah Lily</span>
+      <h2>Kecil, rumahan, <span class="hl">sepenuh hati</span></h2>
+    </div>
+    <div class="why-grid">
+      <div class="why reveal"><span class="why-ic c-orange"><svg class="ic"><use href="#i-home"/></svg></span><h3>Dikerjakan sendiri</h3><p>Dari dapur dan meja kerja kami, bukan pabrik.</p></div>
+      <div class="why reveal"><span class="why-ic c-pink"><svg class="ic"><use href="#i-tag"/></svg></span><h3>Harga bersahabat</h3><p>Kualitas rumahan dengan harga yang masuk akal.</p></div>
+      <div class="why reveal"><span class="why-ic c-frost"><svg class="ic"><use href="#i-chat"/></svg></span><h3>Ramah &amp; cepat</h3><p>Tanya apa saja langsung lewat WhatsApp.</p></div>
+      <div class="why reveal"><span class="why-ic c-leaf"><svg class="ic"><use href="#i-star"/></svg></span><h3>Dipercaya pembeli</h3><p>Rating 4.9 dari 18 penilaian di Shopee.</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ KONTAK / PESAN ============ -->
+<section class="section section-contact" id="kontak">
+  <div class="container">
+    <div class="contact-card reveal">
+      <div class="contact-info">
+        <span class="eyebrow eyebrow-light">Pesan &amp; Tanya</span>
+        <h2>Yuk, ngobrol dengan Rumah Lily</h2>
+        <p>Isi form singkat ini, pesan Anda langsung terkirim ke WhatsApp kami.</p>
+        <ul class="contact-list">
+          <li><span class="cl-ic"><svg class="ic"><use href="#i-chat"/></svg></span><div><small>WhatsApp</small><b data-wa-display>+62 xxx-xxxx-xxxx</b></div></li>
+          <li><span class="cl-ic"><svg class="ic"><use href="#i-bag"/></svg></span><div><small>Shopee</small><a href="#" data-shopee><b data-shopee-name>Rumah Lily 2025</b></a></div></li>
+        </ul>
+        <svg class="contact-lily" aria-hidden="true"><use href="#lily"/></svg>
+      </div>
+
+      <form class="contact-form" id="orderForm" novalidate>
+        <label>Nama Anda
+          <input type="text" name="nama" placeholder="contoh: Ibu Sari" required autocomplete="name">
+        </label>
+        <fieldset>
+          <legend>Mau tanya tentang</legend>
+          <div class="choice-row">
+            <label class="choice c-frost"><input type="radio" name="layanan" value="Makanan Frozen" checked><span><svg class="ic"><use href="#i-snow"/></svg>Frozen Food</span></label>
+            <label class="choice c-pink"><input type="radio" name="layanan" value="Handcraft (sandal handmade)"><span><svg class="ic"><use href="#i-scissors"/></svg>Handcraft</span></label>
+            <label class="choice c-leaf"><input type="radio" name="layanan" value="Konsultasi Pendidikan"><span><svg class="ic"><use href="#i-cap"/></svg>Konsultasi</span></label>
+          </div>
+        </fieldset>
+        <label>Pesan
+          <textarea name="pesan" rows="4" placeholder="Tulis pesanan atau pertanyaan Anda…" required></textarea>
+        </label>
+        <p class="form-error" id="formError" role="alert" hidden>Mohon isi nama dan pesan dulu, ya.</p>
+        <button type="submit" class="btn btn-wa btn-block btn-lg"><svg class="ic"><use href="#i-send"/></svg>Kirim ke WhatsApp</button>
+      </form>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<!-- ============ FOOTER ============ -->
+<footer class="footer">
+  <div class="container footer-grid">
+    <div class="footer-brand">
+      <a href="#beranda" class="brand brand-footer">
+        <img src="assets/img/logo-rumahlily.png" alt="" width="52" height="52">
+        <span class="brand-text"><b>Rumah</b> <i>Lily</i></span>
+      </a>
+      <p>Satu rumah, tiga usaha penuh cinta: frozen food rumahan, kerajinan tangan, dan konsultasi pendidikan.</p>
+    </div>
+    <div>
+      <h4>Usaha</h4>
+      <ul>
+        <li><a href="#frozen">Makanan Frozen</a></li>
+        <li><a href="#handcraft">Handcraft</a></li>
+        <li><a href="#edukasi">Educational Consultant</a></li>
+      </ul>
+    </div>
+    <div>
+      <h4>Hubungi</h4>
+      <ul>
+        <li><a href="#" data-wa="Halo Rumah Lily, saya ingin bertanya.">WhatsApp</a></li>
+        <li><a href="#" data-shopee>Toko Shopee</a></li>
+        <li><a href="#kontak">Form pesan</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="container footer-bottom">
+    <span>© <span id="year">2026</span> Rumah Lily. Dibuat dengan <svg class="ic heart"><use href="#i-heart"/></svg> dari rumah.</span>
+  </div>
+</footer>
+
+<!-- Tombol WA melayang -->
+<a href="#" class="wa-float" data-wa="Halo Rumah Lily, saya ingin bertanya." aria-label="Chat WhatsApp Rumah Lily">
+  <svg class="ic"><use href="#i-chat"/></svg><span>Chat kami</span>
+</a>
+
+<!-- Detail produk -->
+<dialog class="lightbox" id="lightbox" aria-labelledby="lbName">
+  <button class="lb-close" id="lbClose" aria-label="Tutup"><svg class="ic"><use href="#i-x"/></svg></button>
+  <div class="lb-grid">
+    <div class="lb-img"><img id="lbImg" src="" alt=""></div>
+    <div class="lb-body">
+      <span class="eyebrow eyebrow-pink">Handmade · Limited</span>
+      <h3 id="lbName"></h3>
+      <p class="lb-price" id="lbPrice"></p>
+      <p id="lbDesc"></p>
+      <div class="lb-actions">
+        <a href="#" class="btn btn-shopee btn-block" data-shopee><svg class="ic"><use href="#i-bag"/></svg>Beli di Shopee</a>
+        <a href="#" class="btn btn-wa btn-block" id="lbWa"><svg class="ic"><use href="#i-chat"/></svg>Tanya via WhatsApp</a>
+      </div>
+    </div>
+  </div>
+</dialog>
+
+<script src="assets/js/config.js"></script>
+<script src="assets/js/main.js"></script>
+</body>
+</html>
